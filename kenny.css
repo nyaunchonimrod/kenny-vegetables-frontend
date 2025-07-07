@@ -1,0 +1,244 @@
+body {
+  background-size: cover;            
+  background-repeat: no-repeat;                    
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+    .search-box {
+      display: flex;
+      border-radius: 50px;
+      overflow: hidden;
+      width: 400px;
+      max-width: 90%;
+      background-color: #e5e5e5;
+    }
+
+    .search-box input[type="text"] {
+      border: none;
+      padding: 15px 20px;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 50px 0 0 50px;
+      outline: none;
+      background-color: #e5e5e5;
+    }
+
+    .search-box button {
+      background-color: #8000ff; 
+      border: none;
+      padding: 0 20px;
+      cursor: pointer;
+      border-radius: 0 50px 50px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .search-box button i {
+      color: white;
+      font-size: 18px;
+    }
+
+    nav {
+      background-color: #4cb041;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 999;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: right;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 15px;
+    }
+
+    nav ul li a:hover {
+      background-color: #333;
+      border-radius: 20px;
+    }
+
+    section {
+      padding: 100px 20px;
+      min-height: 100vh;
+    }
+
+    #home {
+      background-color: #f4f4f4;
+     margin: 0;
+      padding: 0;
+      height: 60vh;
+      background-size:cover;       
+      background-position: center; 
+      background-repeat: no-repeat; 
+      font-family: Arial, sans-serif;
+      color: white;
+      height: 250vh;
+      
+    }
+
+    #about {
+      background-color: #e8e8e8;
+    }
+    #products {
+      background-color: #fdf6e3;
+    }
+     .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 0 20px;
+    }
+
+    .product {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+
+    #login {
+      background-color: #dcdcdc;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #dcdcdc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+  color: #ffffff;
+
+.container {
+  text-align: center;
+  height: 100vh;
+}
+#loginwithsms{
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.logo span {
+  font-size: 1rem;
+  display: block;
+  margin-top: 0.5rem;
+  color: #ccc;
+}
+
+.card {
+  background-color: #ffb100;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: left;
+}
+
+.card h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #000000;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.options a {
+  color: #888;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #006400;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color:#006400;
+ 
+}
+    }
+.signup-text {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.signup-text a {
+  color: #006400;
+  text-decoration: none;
+}
+
+
+    #cart {
+      background-color: #ffe0b2;
+    }
+
+
+
+    h1, h2 {
+      margin-top: 0;
+    }
