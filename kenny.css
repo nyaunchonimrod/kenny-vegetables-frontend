@@ -12,20 +12,23 @@ body {
       width: 400px;
       max-width: 90%;
       background-color: #e5e5e5;
+      float: right;
+      margin-right: 20px;
     }
 
     .search-box input[type="text"] {
       border: none;
       padding: 15px 20px;
-      width: 100%;
+      width: 90%;
       font-size: 16px;
       border-radius: 50px 0 0 50px;
       outline: none;
-      background-color: #e5e5e5;
+      background-color: #dcdcdc;
+      margin-top: auto;
     }
 
     .search-box button {
-      background-color: #8000ff; 
+      background-color: #ffb100; 
       border: none;
       padding: 0 20px;
       cursor: pointer;
@@ -45,7 +48,8 @@ body {
       position: fixed;
       width: 100%;
       top: 0;
-      z-index: 999;
+      z-index: 1000;
+
     }
 
     nav ul {
@@ -78,25 +82,52 @@ body {
     }
 
     #home {
-      background-color: #f4f4f4;
+      background-color: #dcdcdc;
      margin: 0;
       padding: 0;
-      height: 60vh;
       background-size:cover;       
       background-position: center; 
       background-repeat: no-repeat; 
       font-family: Arial, sans-serif;
-      color: white;
       height: 250vh;
       
     }
+     .carousel {
+  width: 300%;
+  max-width: 600px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0003;
+  margin-top: 100px;
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  animation: slide 9s infinite;
+}
+
+.slides img {
+  width: 400%;
+  height: 800px;
+}
+
+@keyframes slide {
+  0%   { transform: translateX(0%); }
+  33%  { transform: translateX(-100%); }
+  66%  { transform: translateX(-200%); }
+  100% { transform: translateX(0%); }
+}
 
     #about {
       background-color: #e8e8e8;
     }
+
     #products {
       background-color: #fdf6e3;
     }
+
      .product-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -213,7 +244,7 @@ button {
   border-radius: 6px;
   font-size: 1rem;
   cursor: pointer;
-  transition: background 0.3s;
+ 
 }
 
 button:hover {
@@ -221,20 +252,26 @@ button:hover {
  
 }
     }
-.signup-text {
-  font-size: 0.85rem;
-  text-align: center;
-  margin-top: 1rem;
+.sign-up-container{
+     background-color: #dcdcdc;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #dcdcdc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+  color: #ffffff;
 }
 
-.signup-text a {
-  color: #006400;
-  text-decoration: none;
-}
+
+
+
+
 
 
     #cart {
-      background-color: #ffe0b2;
+      background-color: #dcdcdc;
     }
 
 
