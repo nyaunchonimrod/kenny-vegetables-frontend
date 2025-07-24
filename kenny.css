@@ -165,26 +165,6 @@ body {
   height: 120vh;
   color: #ffffff;
 
-.container {
-  text-align: center;
-  height: 100vh;
-}
-#loginwithsms{
-  align-items: center;
-}
-
-.logo {
-  font-size: 2rem;
-  color: #ffffff;
-  margin-bottom: 1rem;
-}
-
-.logo span {
-  font-size: 1rem;
-  display: block;
-  margin-top: 0.5rem;
-  color: #ccc;
-}
 
 .card {
   background-color: #ffb100;
@@ -218,22 +198,6 @@ input[type="password"] {
   font-size: 1rem;
 }
 
-.options {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.85rem;
-  margin-bottom: 1rem;
-}
-
-.options a {
-  color: #888;
-  text-decoration: none;
-}
-
-.options a:hover {
-  text-decoration: underline;
-}
 
 button {
   width: 100%;
@@ -252,8 +216,8 @@ button:hover {
  
 }
     }
-.sign-up-container{
-     background-color: #dcdcdc;
+#sign-up{
+      background-color: #dcdcdc;
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-color: #dcdcdc;
@@ -262,13 +226,44 @@ button:hover {
   justify-content: center;
   height: 120vh;
   color: #ffffff;
+  
+.card{
+  background-color: #ffb100;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: left;
 }
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #000000;
+  color: #fff;
+  font-size: 1rem;
+}
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #006400;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+ 
+}
+button:hover {
+  background-color:#006400;
 
 
 
-
-
-
+}
+}
 
     #cart {
       background-color: #dcdcdc;
