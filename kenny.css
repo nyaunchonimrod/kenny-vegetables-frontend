@@ -92,33 +92,8 @@ body {
       height: 250vh;
       
     }
-     .carousel {
-  width: 300%;
-  max-width: 600px;
-  overflow: hidden;
-  margin: auto;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #0003;
-  margin-top: 100px;
-}
+    
 
-.slides {
-  display: flex;
-  width: 100%;
-  animation: slide 9s infinite;
-}
-
-.slides img {
-  width: 400%;
-  height: 800px;
-}
-
-@keyframes slide {
-  0%   { transform: translateX(0%); }
-  33%  { transform: translateX(-100%); }
-  66%  { transform: translateX(-200%); }
-  100% { transform: translateX(0%); }
-}
 
     #about {
       background-color: #e8e8e8;
@@ -215,55 +190,81 @@ button:hover {
   background-color:#006400;
  
 }
-    }
-#sign-up{
-      background-color: #dcdcdc;
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #dcdcdc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 120vh;
-  color: #ffffff;
-  
-.card{
-  background-color: #ffb100;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  width: 300px;
-  text-align: left;
 }
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  border: none;
-  border-radius: 6px;
-  background-color: #000000;
-  color: #fff;
-  font-size: 1rem;
+
+.signup-container {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 40px;
+  background: #ffb100;
+  font-family: Arial, sans-serif
+align-item:center;
 }
-button {
+
+
+.signup-container h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: lowercase;
+}
+
+
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="tel"],
+.signup-container input[type="password"] {
   width: 100%;
-  padding: 0.75rem;
-  background-color: #006400;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-size: 1rem;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.signup-container input::placeholder {
+  color: #999;
+  font-size: 14px;
+}
+
+.signup-container input:focus {
+  outline: none;
+  border-color: #666;
+}
+
+
+.signup-container button {
+  background: #006400;
+  border: 1px solid ;
+  padding: 8px 16px;
+  border-radius: 3px;
+  font-size: 14px;
   cursor: pointer;
- 
+  margin-bottom: 20px;
+  color: #e8e8e8;
 }
-button:hover {
-  background-color:#006400;
+
+
+.login-link {
+  font-size: 14px;
+  color: #333;
+}
+
+.login-link a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.login-link a:hover {
+  text-decoration: none;
+}
 
 
 
-}
-}
+  
 
     #cart {
       background-color: #dcdcdc;
