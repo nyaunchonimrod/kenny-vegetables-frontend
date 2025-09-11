@@ -2,7 +2,7 @@ body {
   background-size: cover;            
   background-repeat: no-repeat;                    
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
     .search-box {
@@ -263,9 +263,9 @@ align-item:center;
   text-decoration: none;
 }
 .categories-container {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .categories-grid {
@@ -300,7 +300,6 @@ align-item:center;
   background: #f8f8f8;
 }
 
-/* Modal Styles */
 .modal {
   display: none;
   position: fixed;
