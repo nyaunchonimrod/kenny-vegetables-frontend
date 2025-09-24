@@ -13,6 +13,7 @@ body {
       float: right;
       margin-right: 20px;
       margin-top: 10px;
+      background-color: ;
     }
 
     .search-box input[type="text"] {
@@ -22,7 +23,7 @@ body {
       font-size: 16px;
       border-radius: 50px 0 0 50px;
       outline: none;
-      background-color: #000000;
+      background-color: #006400;
       margin-top: auto;
     }
 
@@ -43,12 +44,11 @@ body {
     }
 
     nav {
-      position: fixed;
+      position: relative;
       width: 100%;
       z-index: 1000;
-      margin-top: 40px;
-
-    }
+      margin-top: 40px
+       }
 
     nav ul {
       list-style: none;
@@ -88,8 +88,53 @@ body {
       background-size:cover;       
       background-position: center; 
       background-repeat: no-repeat; 
-      height: 250vh;
+      height: 500vh;
       
+    }
+    .hero {
+      position: relative;
+      height: 600px; 
+      background: url('tropical fruits.jpg') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      border-radius: 15px;
+      max-width: 1200px;
+      
+    }
+
+    .hero-content {
+      background: rgba(0, 0, 0, 0.5); 
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      background: white;
+      color: black;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #006400;
+      color: white;
     }
     
 
@@ -196,7 +241,7 @@ button:hover {
   padding: 40px;
   background: #ffb100;
   font-family: Arial, sans-serif
-align-item:center;
+align-item;center;
  background-color: #ffb100;
 }
 

@@ -1,17 +1,31 @@
+let lastScrollY = window.scrollY;
+const navbar = document.querySelector(".navbar");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > lastScrollY) {
+    
+    navbar.style.top = "-80px";  
+  } else {
+    
+    navbar.style.top = "0";
+  }
+  lastScrollY = window.scrollY;
+});
+
 let slideIndex = 0;
 const slides = document.querySelectorAll('.slide');
 const dots = document.querySelectorAll('.dot');
 let autoSlideInterval;
 
 function showSlide(index) {
-  // Hide all slides
+
   slides.forEach(slide => {
     slide.classList.remove('active');
     slide.setAttribute('aria-hidden', 'true');
   });
   dots.forEach(dot => dot.classList.remove('active'));
 
-  // Show current slide
+
   if (index >= slides.length) slideIndex = 0;
   if (index < 0) slideIndex = slides.length - 1;
   slides[slideIndex].classList.add('active');
@@ -45,16 +59,16 @@ function resetAutoSlide() {
   startAutoSlide();
 }
 
-// Initialize
+
 showSlide(slideIndex);
 startAutoSlide();
 
-// Pause on hover
+
 const container = document.querySelector('.slider-container');
 container.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
 container.addEventListener('mouseleave', startAutoSlide);
 
-// Keyboard support
+
 container.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowLeft') changeSlide(-1);
   if (e.key === 'ArrowRight') changeSlide(1);
